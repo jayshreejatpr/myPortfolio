@@ -158,3 +158,21 @@ padding: 10px 25px;
 transition: all 200ms;
 text-align: center;
 }
+#head1{
+    text-align: center;
+    font-size: x-large;
+    margin-top: 20px; 
+}
+#head2{
+    text-align: center;
+    font-size: medium;
+    margin-top: 25px;
+
+}
+#paragraph{
+    text-align: center;
+    font-size: larger;
+    margin-top: 25px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
