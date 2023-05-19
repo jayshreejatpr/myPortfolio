@@ -1,12 +1,13 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <title>Website Design Tutorial</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="class.css">
     </head>
     <body>
         <div class="container">
-            <!--h1>Jay</h1--> 
 
             <div class="navbar">
                 <nav>
@@ -14,6 +15,7 @@
                         <li><a href="">HOME</a></li>
                         <li><a href="./skills.html">SKILLS</a></li>
                         <li><a href="./knowMe.html">ABOUT ME</a></li>
+                        <li><a href="./contact.html">CONTACT ME</a></li>
                         
                     </ul>
                 </nav>
@@ -24,21 +26,37 @@
                 <h2>Hello I am Jayshree,<br>so good to see you!</h2><br>
                 </div>
                 <div id="down">
-                <p>Seek a position as a software developer where my expertise in programming can be utilized to help achieve company or departmental goals</p>
+                <p> Seek a position as a software developer where my expertise in programming can be utilized to help achieve company or departmental goals</p>
                 </div>
                 <div class="button">
-                    <input type="button" class="btn" value="Contact me">
+                    <button id="btn" onclick="deatails()">Contact me</button>
                 </div>
             </div>
             <div id="right" class="row">
-                <img src="./name.jpg" class="image">
+                <img src="./name.jpg" alt="Girl in a jacket" width="500" height="600" class="image">
             </div>
         </div>
             <div class="grid-container">
                 
             </div>
-
         </div>
-    </div>    
+        
+    </div> 
+    <div>
+        <p id="demo"></p>
+    </div>
+    <script>
+         let text = "<p>Browser CodeName: " + navigator.appCodeName + "</p>" +
+        "<p>Browser Name: " + navigator.appName + "</p>" +
+        "<p>Browser Version: " + navigator.appVersion + "</p>" +
+        "<p>Cookies Enabled: " + navigator.cookieEnabled + "</p>" +
+        "<p>Browser Language: " + navigator.language + "</p>" +
+        "<p>Browser Online: " + navigator.onLine + "</p>" +
+        "<p>Platform: " + navigator.platform + "</p>" +
+        "<p>User-agent header: " + navigator.userAgent + "</p>";
+
+        console.log(text);
+    </script>
+           
     </body>
 </html>
